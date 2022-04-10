@@ -1,0 +1,4 @@
+requests~=2.27.0
+mako~=1.2.0
+cherrypy~=18.6.0
+redispy~=3.0.0
