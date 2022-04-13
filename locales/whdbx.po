@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-12-02 17:33+0300\n"
-"PO-Revision-Date: 2019-12-02 17:40+0300\n"
+"POT-Creation-Date: 2022-04-13 23:52+0300\n"
+"PO-Revision-Date: 2022-04-13 23:55+0300\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1034,3 +1034,22 @@ msgid ""
 msgstr ""
 "Ореол ярко-голубой, это однозначно <br />указывает на круз-сайз дыру; такие "
 "ведут в С1<br />или из неё."
+
+#: .\templates\footer.html:9
+msgid "Author: "
+msgstr "Автор: "
+
+#: .\templates\footer.html:15
+msgid "Current maintainer: "
+msgstr "Текущий оператор: "
+
+#: .\templates\wh_colors.html:76
+msgid "You can see red Triglav space through it."
+msgstr ""
+
+#: .\templates\500.html:14
+msgid ""
+"Oops! Something broke, send message ingame to <b>Murzeyshestvo</b>, or file "
+"a bug on"
+msgstr ""
+"Ой! Что-то сломалось, стучите в личку <b>Murzeyshestvo</b>, или багрепорт в"
