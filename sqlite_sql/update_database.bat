@@ -1,5 +1,5 @@
-@set SQLITE3_EXE=..\..\tools\sqlite-win32\sqlite3.exe
-@set DB_FILENAME=..\eve.db
+@set SQLITE3_EXE=..\tools\sqlite-win32\sqlite3.exe
+@set DB_FILENAME=..\db\eve.db
 
 %SQLITE3_EXE% %DB_FILENAME% < effects_new.sql
 %SQLITE3_EXE% %DB_FILENAME% < signature_oregas.sql
