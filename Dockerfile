@@ -30,6 +30,6 @@ RUN pip install --no-cache /wheels/* && \
 COPY . ./
 
 EXPOSE 8081
-VOLUME ["/app/_caches"]
+VOLUME ["/app/_caches", "/app/logs", "/app/db"]
 
 ENTRYPOINT ["/app/entrypoint.sh"]

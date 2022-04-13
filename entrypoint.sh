@@ -12,8 +12,9 @@ if [ -f eve.db.bz2 ]; then rm eve.db.bz2; fi
 
 wget https://www.fuzzwork.co.uk/dump/latest/eve.db.bz2
 bzip2 --decompress eve.db.bz2
+cd ../
 cd sqlite_sql
 ./update_database.sh
-cd ../../
+cd ../
 
 python3 ./main.py --host=0.0.0.0 --port=8081
