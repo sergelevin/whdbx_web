@@ -189,7 +189,7 @@ INSERT INTO signature_waves VALUES (38, 3, 0, '31:3:nr,32:3:wnd,27:3:w,29:4:rt,2
 INSERT INTO signature_waves VALUES (38, 4, 0, '32:4:wnd,28:4:wnd,24:5:n');
 INSERT INTO signature_waves VALUES (38, 1, 1, '101:3:wns');
 -- Unsecured Frontier Enclave Relay --
-INSERT INTO signature_waves VALUES (39, 1, 0, '24:3:nt');
+INSERT INTO signature_waves VALUES (39, 1, 0, '24:3:nt,23:1:wndR');
 INSERT INTO signature_waves VALUES (39, 2, 0, '31:5:nr,29:4:r,24:2:nt');
 INSERT INTO signature_waves VALUES (39, 3, 0, '31:3:nr,32:4:wnd,27:3:w,29:4:r,24:2:nt');
 INSERT INTO signature_waves VALUES (39, 4, 0, '32:3:wnd,29:3:r,25:5:r');
